@@ -1,0 +1,56 @@
+.component3 {
+  width: 50%;
+  background-color: #fff;
+  height: 400px;
+  border-radius: 10px;
+  padding: 2rem;
+  font-family: "Geist";
+  position: relative;
+  overflow: hidden;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.post-container {
+  height: 100%;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* Fade */
+.bottom-fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(to bottom, transparent, rgb(246, 245, 245));
+  pointer-events: none;
+  z-index: 10;
+}
+
+.post {
+  padding: 2rem;
+  background-color: #f2f2f2;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+hr {
+  color: rgba(211, 211, 211, 0.493);
+}
+
+h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.479);
+}

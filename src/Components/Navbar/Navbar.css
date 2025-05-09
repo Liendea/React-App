@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap");
+
+header {
+  display: flex;
+  padding: 2rem 4rem;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+
+  padding: 8px 15px;
+  width: auto;
+}
+
+nav a {
+  color: black;
+  font-size: 1.2rem;
+  margin: 2rem;
+  text-decoration: none;
+  font-family: "Geist Mono", monospace;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  color: #fb9261;
+  transition: all 0.3s ease;
+}
+
+/* ===== Mobile Navigation ===== */
+.hamburger {
+  display: none;
+}
+
+#hamburger-icon {
+  color: black;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mobile-nav {
+  display: none;
+  padding-top: 10rem;
+  height: 100dvh;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.mobile-nav.show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 2rem 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    padding: 2rem 1rem;
+  }
+
+  .hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    z-index: 110;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav a {
+    font-size: 50px;
+  }
+
+  .mobile-nav a:hover {
+    transform: scale(1.1);
+    background-color: #fb9261;
+    color: black;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav {
+    border-radius: 50%;
+    padding: 5px;
+  }
+}

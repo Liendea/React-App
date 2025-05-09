@@ -1,0 +1,38 @@
+.component1 {
+  background-color: #6cdff4;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding: 3rem;
+}
+
+h1 {
+  font-family: "Geist";
+  font-size: 8rem;
+  font-weight: 400;
+  line-height: 90%;
+  letter-spacing: -3px;
+  text-align: center;
+}
+
+@media (max-width: 1070px) {
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 830px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 592px) {
+  .component1 {
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
