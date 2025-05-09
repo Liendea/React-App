@@ -1,5 +1,5 @@
 import "./Component2.css";
-import Button from "./Buttons";
+import Button from "./Button";
 
 export default function Component2() {
   return (
