@@ -1,12 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .component3 {
   width: 50%;
-  background-color: #fff;
   height: 400px;
   border-radius: 10px;
   padding: 2rem;
-  font-family: "Geist";
+  background-color: #fff;
   position: relative;
   overflow: hidden;
+  font-family: "Geist";
 }
 
 h3 {
@@ -32,25 +38,8 @@ h3 {
   z-index: 10;
 }
 
-.post {
-  padding: 2rem;
-  background-color: #f2f2f2;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 10px;
-}
-
-hr {
-  color: rgba(211, 211, 211, 0.493);
-}
-
-h4 {
-  font-size: 1rem;
-  margin-bottom: 10px;
-}
-
-p {
-  margin-top: 10px;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.479);
+@media (max-width: 800px) {
+  .component3 {
+    width: 100%;
+  }
 }

@@ -1,6 +1,6 @@
-import Component1 from "./Component1";
-import Component3 from "./Component3";
-import Component2 from "./Component2";
+import Component1 from "./Component1/Component1";
+import Component3 from "./Component3/Component3";
+import Component2 from "./Component2/Component2";
 
 export default function Main() {
   return (

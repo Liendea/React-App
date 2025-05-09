@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.post {
+  padding: 2rem;
+  background-color: #f2f2f2;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+hr {
+  color: rgba(211, 211, 211, 0.493);
+}
+
+h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.479);
+}
