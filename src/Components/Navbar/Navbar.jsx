@@ -15,7 +15,7 @@ export default function Navbar() {
   };
   return (
     <header>
-      <Logo />
+      <Logo width={180} />
       <nav>
         <div className="desktop-nav">
           <Navlinks />
