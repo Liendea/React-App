@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/React-App/static/css/main.6eaed8b9.css",
-    "main.js": "/React-App/static/js/main.701db240.js",
+    "main.css": "/React-App/static/css/main.0ee43f95.css",
+    "main.js": "/React-App/static/js/main.cde50f35.js",
     "static/media/react_logo_black.svg": "/React-App/static/media/react_logo_black.9e44f9dbfbec3ff97fba1623c0cac75b.svg",
     "index.html": "/React-App/index.html",
-    "main.6eaed8b9.css.map": "/React-App/static/css/main.6eaed8b9.css.map",
-    "main.701db240.js.map": "/React-App/static/js/main.701db240.js.map"
+    "static/media/hamburger_bars.svg": "/React-App/static/media/hamburger_bars.315617dadd9496d1dd880260beb1822c.svg",
+    "main.0ee43f95.css.map": "/React-App/static/css/main.0ee43f95.css.map",
+    "main.cde50f35.js.map": "/React-App/static/js/main.cde50f35.js.map"
   },
   "entrypoints": [
-    "static/css/main.6eaed8b9.css",
-    "static/js/main.701db240.js"
+    "static/css/main.0ee43f95.css",
+    "static/js/main.cde50f35.js"
   ]
 }
