@@ -38,7 +38,10 @@ export default function Navbar() {
 
         <Hamburger onClick={toggleMobileMenu} />
         <div className={`mobile-nav ${isMobileMenuOpen ? "show" : ""}`}>
-          <Navlinks closeMenu={closeMobileMenu} />
+          <Navlinks
+            closeMenu={closeMobileMenu}
+            isMobileMenuOpen={isMobileMenuOpen}
+          />
         </div>
       </nav>
     </header>

@@ -5,7 +5,7 @@ export default function Component3() {
   return (
     <article className="component3">
       <h3>News</h3>
-      <div class="post-container">
+      <div className="post-container">
         <Post />
         <Post />
         <Post />
