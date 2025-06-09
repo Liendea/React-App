@@ -7,12 +7,12 @@ import Footer from "../src/Components/Footer/Footer.jsx";
 function App() {
   return (
     <div className="app">
-      <Navbar></Navbar>
+      <Navbar />
       <div className="content">
-        <Sidebar></Sidebar>
-        <Hero></Hero>
+        <Sidebar />
+        <Hero />
       </div>
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }
